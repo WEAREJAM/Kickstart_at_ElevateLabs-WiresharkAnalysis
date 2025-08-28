@@ -40,6 +40,8 @@ The answer is DNS
 
 Process:
 
+![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample4.png?raw=true) 
+
 _Client_: Ok search engine, I want google.com
 
 __DNS Resolver : Sure lets ask IP address for DNS resolver__
