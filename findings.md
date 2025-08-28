@@ -28,7 +28,7 @@ So can i capture any traffic? YES, AND CAN ALSO SAVE THE TRAFFIC AND ANALYZE LAT
 
 Example 3: DNS SCAN ANALYSIS
 
-![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample2.png?raw=true) 
+![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample3.png?raw=true) 
 
 Note: 
 
