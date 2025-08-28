@@ -4,7 +4,7 @@ Wireshark is a powerful tool where we can see how the data flows and how it reac
 
 Note: Port 80 is not a secure port, the transferred data between client and server is transparent. The sensitive information is clearly visible in this port. Every request we send deals with the right port and protocols.
 
-Example 1: PING SCAN ANALYSIS
+__Example 1__: PING SCAN ANALYSIS
 
 Let's see how Wireshark responds with a simple ping scan. [ICMP]
 
@@ -16,7 +16,7 @@ The above image shows the simple ping scan. This scan is where we as client requ
 
 If you observe the below data we can clearly see the tcp protool here adn the hexa data is on the left. all the readings seems random but deeply connected and say the same. the destination, source ip address and other info can be seen along with mac addresses. 
 
-Example 2: TCP SCAN ANALYSIS
+__Example 2__: TCP SCAN ANALYSIS
 
 Lets see the behaviour with the noisiest TCP scan. The TCP scan is mostly known as three way handshake. This scan is mostly avoided so it doesnt create more and more packets and make the server unavailable. This behaviour is also called DOS attack. 
 
@@ -30,7 +30,7 @@ the wireshark is just an packet catcher but not an analyzer it is out job to get
 
 So can i capture any traffic? YES, AND CAN ALSO SAVE THE TRAFFIC AND ANALYZE LATER.
 
-Example 3: DNS SCAN ANALYSIS
+__Example 3__: DNS SCAN ANALYSIS
 
 ![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample3.png?raw=true) 
 
@@ -38,7 +38,7 @@ Note: The DNS port is the most common port; the dns stands for Domain Name Syste
 
 The answer is DNS
 
-Process:
+DNS Process:
 
 ![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample4.png?raw=true) 
 
@@ -68,7 +68,10 @@ The above image is an example to this there we see only few interactions in port
 
 The resolver asked what the ipv4 and ipv6 address to that website. and it replies with the ip. 
 
-The total packets can be seen here in Wireshark. 
+The total packets can be seen here in Wireshark. Generally, we use TCP MODEL for transmitting data, in this Wireshark we can see this model flow along with the details like mac, ipv4, ipv6, session etc flow.
+
+Let's observe the model and collect details 
+
 
 
 
