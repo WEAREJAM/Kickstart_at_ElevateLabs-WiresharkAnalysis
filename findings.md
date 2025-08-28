@@ -40,27 +40,27 @@ The answer is DNS
 
 Process:
 
-Client: Ok search engine, I want google.com
+_Client_: Ok search engine, I want google.com
 
-_DNS Resolver : Sure lets ask IP address for DNS resolver_
+__DNS Resolver : Sure lets ask IP address for DNS resolver__
 
-DNS Resolver to root DNS: Whats ip to google.com?
+_DNS Resolver to root DNS_: Whats ip to google.com?
 
-Root DNS: I dont know IP address!!! But I know in which server it is stored on: TLD name server
+_Root DNS_: I dont know IP address!!! But I know in which server it is stored on: TLD name server
 
-_DNS Resolver : Ok_
+__DNS Resolver : Ok__
 
-DNS Resolver to TLD Name server: so whats ip to google.com?
+_DNS Resolver to TLD Name server_: so whats ip to google.com?
 
-TLD Name server: Hmmm!!! I do know thw authoritative name check there.
+_TLD Name server_: Hmmm!!! I do know the authoritative name, check there.
 
-_DNS Resolver : oh!! OK_
+__DNS Resolver : oh!! OK__
 
-DNS Resolver to authoritative DNS resolver: So whats the ip to google.com?
+_DNS Resolver to authoritative DNS resolver_: So whats the ip to google.com?
 
-Authoritative DNS: Yeah i do know that. Here its ip address //8.8.8.8
+_Authoritative DNS_: Yeah i do know that. Here its ip address //8.8.8.8
 
-SO EVERY TIME I BROWSE GOOGLE, DOES DNS FOLLOW THE SAME PROCESS?? NOPE. THE DNS IS DESIGNED THE WAY THAT IT REMEMBERS THE ALREADY BROWSED WEBSITES WITH IP ADDRESS. _The process follows when only a new website is browsed_
+__SO EVERY TIME I BROWSE GOOGLE, DOES DNS FOLLOW THE SAME PROCESS?? NOPE. THE DNS IS DESIGNED THE WAY THAT IT REMEMBERS THE ALREADY BROWSED WEBSITES WITH IP ADDRESS__. _The process follows when only a new website is browsed_
 
 The above image is an example to this there we see only few interactions in port 53. 
 
