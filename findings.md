@@ -42,25 +42,25 @@ DNS Process:
 
 ![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample4.png?raw=true) 
 
-_Client_: Ok search engine, I want google.com
+_Client_:                            Ok search engine, I want google.com
 
-__DNS Resolver : Sure lets ask IP address for DNS resolver__
+__DNS Resolver :                     Sure lets ask IP address for DNS resolver__
 
-_DNS Resolver to root DNS_: Whats ip to google.com?
+_DNS Resolver to root DNS_:          Whats ip to google.com?
 
-_Root DNS_: I dont know IP address!!! But I know in which server it is stored on: TLD name server
+_Root DNS_:                          I dont know IP address!!! But I know in which server it is stored on: TLD name server
 
-__DNS Resolver : Ok__
+__DNS Resolver :                     Ok__
 
-_DNS Resolver to TLD Name server_: so whats ip to google.com?
+_DNS Resolver to TLD Name server_:   so whats ip to google.com?
 
-_TLD Name server_: Hmmm!!! I do know the authoritative name, check there.
+_TLD Name server_:                   Hmmm!!! I do know the authoritative name, check there.
 
-__DNS Resolver : oh!! OK__
+__DNS Resolver :                     oh!! OK__
 
-_DNS Resolver to authoritative DNS resolver_: So whats the ip to google.com?
+_DNS Resolver to authoritative DNS_: So whats the ip to google.com?
 
-_Authoritative DNS_: Yeah i do know that. Here its ip address //8.8.8.8
+_Authoritative DNS_:                 Yeah i do know that. Here its ip address //8.8.8.8
 
 __SO EVERY TIME I BROWSE GOOGLE, DOES DNS FOLLOW THE SAME PROCESS?? NOPE. THE DNS IS DESIGNED THE WAY THAT IT REMEMBERS THE ALREADY BROWSED WEBSITES WITH IP ADDRESS__. _The process follows when only a new website is browsed_
 
