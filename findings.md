@@ -30,8 +30,27 @@ Example 3: DNS SCAN ANALYSIS
 
 ![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample3.png?raw=true) 
 
-Note: 
+Note: The DNS port is the most common port; the dns stands for Domain Name System. So how every word/spell do return webpages? 
+The answer is DNS
 
+Process:
+Client: Ok search engine, I want google.com
+_DNS Resolver : Sure lets ask IP address for DNS resolver_
+DNS Resolver to root DNS: Whats ip to google.com?
+Root DNS: I dont know IP address!!! But I know in which server it is stored on: TLD name server
+_DNS Resolver : Ok_
+DNS Resolver to TLD Name server: so whats ip to google.com?
+TLD Name server: Hmmm!!! I do know thw authoritative name check there.
+_DNS Resolver : oh!! OK_
+DNS Resolver to authoritative DNS resolver: So whats the ip to google.com?
+Authoritative DNS: Yeah i do know that. Here its ip address //8.8.8.8
+
+SO EVERY TIME I BROWSE GOOGLE, DOES DNS FOLLOW THE SAME PROCESS?? NOPE. THE DNS IS DESIGNED THE WAY THAT IT REMEMBERS THE ALREADY BROWSED WEBSITES WITH IP ADDRESS. _The process follows when only a new website is browsed_
+
+The above image is an example to this there we see only few interactions in port 53. 
+The resolver asked what the ipv4 and ipv6 address to that website. and it replies with the ip. 
+
+The total packets can be seen here in Wireshark. 
 
 
 
