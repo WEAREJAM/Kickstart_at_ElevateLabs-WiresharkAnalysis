@@ -72,6 +72,8 @@ The total packets can be seen here in Wireshark. Generally, we use TCP MODEL for
 
 Let's observe the model and collect details 
 
+![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample5.png?raw=true) 
 
+![Wireshark example](https://github.com/WEAREJAM/Kickstart_at_ElevateLabs-WiresharkAnalysis/blob/main/assets/sample6.png?raw=true) 
 
-
+___Jamming with JAM___
